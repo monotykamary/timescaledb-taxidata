@@ -4,7 +4,13 @@ This project contains supporting code for the TimescaleDB video on Dreams of Cod
 
 ## Devcontainer
 
-If you use devpod or GitHub Codespaces, there is a `.devcontainer` folder with a Dockerfile that will build a devcontainer for you. It will setup everything from with Postgres and TimescaleDB as well as migrate the tables and hypertables.
+If you use devpod or GitHub Codespaces, there is a `.devcontainer` folder with a Dockerfile that will build a devcontainer for you. It will setup everything from with Postgres and TimescaleDB as well as migrate the tables and hypertables. Clone this repository and init the devpod:
+
+```sh
+git clone https://github.com/monotykamary/timescaledb-taxidata.git
+cd timescaledb-taxidata
+devpod up ./
+```
 
 When you have everything setup, just SSH into the container through devpod:
 
