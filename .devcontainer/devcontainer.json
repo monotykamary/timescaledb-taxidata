@@ -19,6 +19,6 @@
 		}
 	},
 
-	"postCreateCommand": "yes | pip3 install --break-system-packages -r requirements.txt; service postgresql start",
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 	"remoteUser": "root"
 }
