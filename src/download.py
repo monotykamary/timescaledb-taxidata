@@ -33,8 +33,8 @@ def download_file(prefix, year, month):
 
 
 table = (
-    ("green", (2014, 1), (2024, 4)),
-    ("yellow", (2009, 1), (2024, 4)),
+    ("green", (2022, 1), (2024, 4)),
+    ("yellow", (2022, 1), (2024, 4)),
 )
 
 for prefix, (start_year, start_month), (end_year, end_month) in table:
